@@ -1,27 +1,12 @@
-Perfeito! Aqui está o **README inteiramente em Markdown**, com **todos os elementos (texto, seções, instruções, listas, estrutura de pastas, comandos e observações)** já formatados. É só copiar e colar:
-
-```markdown
 # GameZone 🎮
 
-Bem-vindo ao **GameZone**, um projeto web desenvolvido para oferecer uma experiência imersiva no mundo dos games. O site conta com páginas dedicadas a e-sports, uma loja de periféricos e suporte ao cliente, tudo com um design moderno e responsivo.
-
----
-
-## 📋 Índice
-
-- [📌 Sobre o Projeto](#-sobre-o-projeto)
-- [🚀 Funcionalidades](#-funcionalidades)
-- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
-- [▶️ Como Executar o Projeto](#️-como-executar-o-projeto)
-- [👥 Contribuidores](#-contribuidores)
-- [📄 Licença](#-licença)
+Bem-vindo ao GameZone, um projeto web desenvolvido para oferecer uma experiência imersiva no mundo dos games. O site conta com páginas dedicadas a e-sports, uma loja de periféricos e suporte ao cliente, tudo com um design moderno e responsivo.
 
 ---
 
 ## 📌 Sobre o Projeto
 
-O **GameZone** é um site voltado para gamers e entusiastas de e-sports. Ele foi desenvolvido no **primeiro período da faculdade**, em colaboração com outros colegas de curso. Após a entrega inicial, o projeto passou por melhorias no código, organização e design.
+O GameZone é um site voltado para gamers e entusiastas de e-sports. Ele foi desenvolvido no **primeiro período da faculdade**, em colaboração com outros colegas de curso. Após a entrega inicial, o projeto passou por melhorias no código, organização e design.
 
 O site reúne:
 
@@ -113,7 +98,7 @@ GAMEZONE/
 Antes de iniciar, você precisa ter:
 
 - [Visual Studio Code](https://code.visualstudio.com/) instalado;
-- Extensão **Live Server** instalada no VS Code.
+- Extensão Live Server instalada no VS Code.
 
 ### 📥 Clonar o Repositório
 
@@ -144,10 +129,10 @@ http://127.0.0.1:5500
 
 Este projeto foi desenvolvido por:
 
-- **Gabriel da Cunha Teixeira**  
-- **João Emannuel Souza do Espírito Santo**  
-- **Lucas Picanço**  
-- **Arthur Steiner**
+- Gabriel da Cunha Teixeira  
+- João Emannuel Souza do Espírito Santo  
+- Lucas Picanço
+- Arthur Steiner
 
 Posteriormente, foram feitas alterações e melhorias com foco em organização, usabilidade e manutenção do código.
 
@@ -155,8 +140,8 @@ Posteriormente, foram feitas alterações e melhorias com foco em organização,
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido como trabalho acadêmico no curso de graduação da **Faculdade FAMINAS - Muriaé**, durante o **primeiro período**.
+Este projeto foi desenvolvido como trabalho acadêmico no curso de graduação da Faculdade FAMINAS - Muriaé, durante o primeiro período.
 
-Seu uso é livre para fins **educacionais e de aprendizado**.
+Seu uso é livre para fins educacionais e de aprendizado.
 
 ---
