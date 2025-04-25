@@ -105,7 +105,7 @@ Antes de iniciar, você precisa ter:
 Abra seu terminal ou prompt de comando e digite:
 
 ```bash
-git clone https://github.com/seu-usuario/gamezone.git
+git clone https://github.com/arthursteinerr/projetoGameZone.git
 ```
 
 ### 💻 Abrir no VS Code
