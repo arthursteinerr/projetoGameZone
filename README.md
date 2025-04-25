@@ -4,18 +4,6 @@ Bem-vindo ao **GameZone**, um projeto web desenvolvido para oferecer uma experi�
 
 ---
 
-## 📋 Índice
-
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Como Executar o Projeto](#como-executar-o-projeto)
-- [Contribuidores](#contribuidores)
-- [Licença](#licença)
-
----
-
 ## 📌 Sobre o Projeto
 
 O **GameZone** é um site voltado para gamers e entusiastas de e-sports. Ele foi originalmente desenvolvido no **primeiro período da faculdade** como um projeto colaborativo entre colegas. Posteriormente, foram realizadas melhorias e ajustes na versão original, buscando maior organização, responsividade e melhor experiência do usuário.
