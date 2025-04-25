@@ -1,0 +1,753 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+}
+:root {
+  --color-white: #f5f5f5;
+  --color-white20: #f5f5f5b0;
+  --color-white10: #f5f5f552;
+  --color-softblue: #01f4f5;
+  --color-darkblue: #1b0b54;
+  --color-darkblue20: #1b0b54a4;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Base do Site */
+
+body {
+  margin: 0;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../../IMG/BG/cururuzin.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--color-white20);
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  display: flex;
+  z-index: 9999;
+  width: 100%;
+  height: 80px;
+  background-color: var(--color-darkblue);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cabecalho {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.logo_cabecalho {
+  width: 80px;
+  height: auto;
+}
+
+.navigation_cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.navigation_cabecalho a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navigation_cabecalho a:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  border-bottom: 2px solid var(--color-softblue);
+}
+
+.conectar_conta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.conectar_conta a {
+  text-decoration: none;
+}
+
+.criar_conta {
+  color: var(--color-darkblue);
+  padding: 10px 30px;
+  border: 2px solid var(--color-white);
+  background-color: var(--color-white);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.criar_conta:hover {
+  background-color: var(--color-softblue);
+  color: var(--color-white);
+  transform: scale(1.1);
+}
+
+.entrar {
+  color: var(--color-white);
+  padding: 10px 30px;
+  border: 2px solid var(--color-white);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.entrar:hover {
+  background-color: var(--color-softblue);
+  color: var(--color-darkblue);
+  transform: scale(1.1);
+}
+
+/* Main */
+
+/* Elemento 1 */
+
+.elemento_1 {
+  width: 100%;
+  padding: 10% 0 0 10%;
+  box-sizing: border-box;
+}
+
+.texto_principal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.txt_sub_titulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 40px;
+  padding-left: 2%;
+}
+
+.txt_titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 155px;
+  font-weight: 1000;
+  color: var(--color-white);
+  line-height: 140px;
+  text-align: center;
+  transition: color 0.7s ease, transform 0.5s ease, text-shadow 0.3s ease;
+  text-shadow: 0 0 15px var(--color-darkblue20),
+    0 0 20px var(--color-darkblue20);
+}
+
+.txt_descricao {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-white);
+  line-height: 20px;
+  padding: 1% 0 0 2%;
+}
+
+/* Botão */
+
+.botao_esports a {
+  text-decoration: none;
+}
+
+.botao_conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 50px;
+  background-color: var(--color-softblue);
+  border-radius: 15px;
+  border: none;
+}
+
+.botao_esports {
+  border: none;
+  padding: 2%;
+  background-color: transparent;
+}
+
+.txt_botao_esports {
+  display: flex;
+  text-align: center;
+  padding-bottom: 7px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--color-darkblue);
+}
+
+.botao_esports:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  transition: transform 0.3s ease, text-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.icon_seta_botao_esports {
+  display: flex;
+  width: 40px;
+}
+/* Elemento 1 Fim */
+
+/* Elemento 2 */
+
+.elemento2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.produtos_home {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  font-style: normal;
+  color: var(--color-white);
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-shadow: -1px -1px 0 var(--color-darkblue),
+    1px -1px 0 var(--color-darkblue), -1px 1px 0 var(--color-darkblue),
+    1px 1px 0 var(--color-darkblue); /* Black border around the text */
+}
+
+.titulo_elemento_2 {
+  margin-top: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.txt_linha_2_elemento_2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--color-white);
+  line-height: 1.5;
+}
+
+.txt_linha_1_elemento_2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 65px;
+  font-weight: 900;
+  color: var(--color-darkblue);
+  text-align: center;
+}
+
+.txt_dos {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--color-darkblue);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.txt_pro_players {
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 1000;
+  color: var(--color-softblue);
+  line-height: 1.5;
+  text-align: center;
+  transition: color 0.7s ease, transform 1s ease;
+  text-shadow: 0 0 1px var(--color-softblue), 0 0 1px var(--color-softblue),
+    0 0 1px var(--color-softblue), -1px -1px 0 var(--color-darkblue),
+    1px -1px 0 var(--color-darkblue), -1px 1px 0 var(--color-darkblue),
+    1px 1px 0 var(--color-darkblue);
+}
+
+.txt_pro_players:hover {
+  color: var(--color-white20);
+  transform: scale(1.12);
+  text-shadow: 0 0 10px var(--color-softblue), 0 0 20px var(--color-softblue),
+    0 0 30px var(--color-softblue);
+  filter: brightness(1.2);
+}
+
+/* Produtos */
+
+.produtos_home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 50px;
+}
+
+/* Mouse 1 */
+
+.mouse_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-darkblue);
+  border: 2px solid var(--color-white);
+  padding: 20px 20px 40px;
+  border-radius: 25px;
+}
+
+.txt_mouse_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  color: var(--color-softblue);
+  padding: 15px 2px;
+}
+
+.txt_mouse_1_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: var(--color-softblue);
+}
+
+.txt_preco_mouse_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--color-white);
+  padding-top: 20px;
+}
+
+.img_mouse_1 {
+  width: 250px;
+}
+/* Mouse 1 Fim */
+
+/* Teclado 1 */
+
+.teclado_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-darkblue);
+  border: 2px solid var(--color-white);
+  padding: 20px 20px 40px;
+  border-radius: 25px;
+}
+
+.txt_teclado_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  color: var(--color-softblue);
+  padding: 15px 2px;
+}
+
+.txt_teclado_1_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: var(--color-softblue);
+}
+
+.txt_preco_teclado_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--color-white);
+  padding-top: 20px;
+}
+
+.img_teclado_1 {
+  width: 250px;
+}
+/* Teclado 1 Fim */
+
+/* Headset 1 */
+
+.headset_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-darkblue);
+  border: 2px solid var(--color-white);
+  padding: 20px 20px 40px;
+  border-radius: 25px;
+}
+
+.txt_headset_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  color: var(--color-softblue);
+  padding: 15px 2px;
+}
+
+.txt_headset_1_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  color: var(--color-softblue);
+}
+
+.txt_preco_headset_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--color-white);
+  padding-top: 20px;
+}
+
+.img_headset_1 {
+  width: 250px;
+}
+/* Headset 1 Fim */
+
+/* Botão Elemento 2 */
+
+.botao_elemento_2 a {
+  text-decoration: none;
+}
+
+.botao_conteudo_elemento_2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 35px 50px;
+  background-color: var(--color-softblue);
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 0px 15px 7px #01f5f583;
+}
+
+.botao_elemento_2 {
+  border: none;
+  padding-top: 50px;
+  background-color: transparent;
+}
+
+.txt_botao_loja_elemento_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  font-weight: 900;
+  color: var(--color-darkblue);
+}
+
+.icon_seta_botao_loja_elemento_2 {
+  display: flex;
+  width: 40px;
+}
+
+.icon_seta_botao_loja_elemento_2:hover,
+.botao_conteudo_elemento_2:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  transition: transform 0.3s ease, text-shadow 0.3s ease, filter 0.3s ease;
+}
+/* Elemento 2 Fim */
+
+/* Elemento 3 */
+
+.elemento_3 {
+  margin: 2% 10%;
+  padding: 7% 5%;
+  border-radius: 20px;
+  border: 2px solid var(--color-darkblue);
+  background-color: var(--color-darkblue20);
+}
+
+.titulo_elemento_3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 55px;
+}
+
+.txt_titulo_elemento_3 {
+  padding: 0 5%;
+  color: var(--color-darkblue);
+}
+
+.sub_linha {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.txt_organ_cup {
+  color: var(--color-softblue);
+  text-shadow: 0 0 1px var(--color-softblue), 0 0 1px var(--color-softblue),
+    0 0 1px var(--color-softblue), -1px -1px 0 var(--color-darkblue),
+    1px -1px 0 var(--color-darkblue), -1px 1px 0 var(--color-darkblue),
+    1px 1px 0 var(--color-darkblue);
+  filter: brightness(1.2);
+}
+
+/* Players */
+
+.players_elemento_3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4%;
+  justify-content: center;
+  padding: 7% 0 0;
+}
+
+.player_elemento_3 {
+  text-align: center;
+}
+
+.txt_nome_player {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.txt_ranking {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: var(--color-white);
+  padding-top: 20px;
+}
+/* Elemento 3 Fim */
+
+/* Elemento 4 */
+
+.elemento_4_geral {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16%;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.icon_elemento_4 {
+  width: 270px;
+}
+
+.icon_elemento_4:hover {
+  transition: color 0.4s ease, transform 0.6s ease;
+  color: var(--color-white);
+  transform: scale(1.01);
+  text-shadow: 0 0 10px var(--color-softblue), 0 0 20px var(--color-softblue),
+    0 0 30px var(--color-softblue);
+  filter: brightness(1.2);
+}
+
+.titulo_elemento_4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.txt_linha1_elemento_4 {
+  color: var(--color-darkblue);
+}
+
+.txt2_linha1_elemento_4 {
+  color: var(--color-softblue);
+  text-shadow: 0 0 1px var(--color-softblue), 0 0 1px var(--color-softblue),
+    0 0 1px var(--color-softblue), -1px -1px 0 var(--color-darkblue),
+    1px -1px 0 var(--color-darkblue), -1px 1px 0 var(--color-darkblue),
+    1px 1px 0 var(--color-darkblue);
+}
+
+.txt3_sub_elemento_4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  color: var(--color-softblue);
+  text-shadow: 0 0 1px var(--color-softblue), 0 0 1px var(--color-softblue),
+    0 0 1px var(--color-softblue), -1px -1px 0 var(--color-darkblue),
+    1px -1px 0 var(--color-darkblue), -1px 1px 0 var(--color-darkblue),
+    1px 1px 0 var(--color-darkblue);
+}
+
+.txt_sub_elemento_4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--color-darkblue);
+  padding-left: 1%;
+}
+
+.botao_elemento_4 {
+  border: none;
+  padding: 5% 2%;
+  background-color: transparent;
+}
+
+.botao_conteudo_elemento_4 a {
+  text-decoration: none;
+}
+
+.botao_conteudo_elemento_4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 35px 50px;
+  background-color: var(--color-softblue);
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 0px 15px 7px #01f5f583;
+}
+
+.botao_conteudo_elemento_4:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  transition: transform 0.3s ease, text-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.txt_botao_suporte {
+  display: flex;
+  text-align: center;
+  padding-bottom: 7px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--color-darkblue);
+}
+/* Elemento 4 Fim */
+
+/* Footer */
+
+footer {
+  padding-top: 2%;
+  box-shadow: 0px 0.5px 10px 0px var(--color-white);
+  background-color: var(--color-darkblue);
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.esquerda {
+  float: left;
+  width: 50%;
+}
+
+.direita {
+  float: right;
+  width: 50%;
+}
+
+.endereco {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: var(--color-white);
+  margin-left: 20%;
+}
+
+.lista {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--color-white);
+  line-height: 1.5;
+  margin-left: 25%;
+  padding-top: 10px;
+}
+
+.descl {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.img_cadeado {
+  display: block;
+  margin: 20px auto;
+  width: 40px;
+  height: 80px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img_social {
+  width: 35px;
+  margin-bottom: 2vh;
+}
+/* Footer End */
