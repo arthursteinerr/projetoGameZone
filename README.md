@@ -1,10 +1,10 @@
-# GameZone 🎮
+# GameZone 
 
 Bem-vindo ao GameZone, um projeto web desenvolvido para oferecer uma experiência imersiva no mundo dos games. O site conta com páginas dedicadas a e-sports, uma loja de periféricos e suporte ao cliente, tudo com um design moderno e responsivo.
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 O GameZone é um site voltado para gamers e entusiastas de e-sports. Ele foi desenvolvido no **primeiro período da faculdade**, em colaboração com outros colegas de curso. Após a entrega inicial, o projeto passou por melhorias no código, organização e design.
 
@@ -16,33 +16,33 @@ O site reúne:
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-### 🔹 Página Inicial
+### Página Inicial
 
 - Destaques de periféricos gamers;
 - Jogadores em evidência nos campeonatos;
 - Acesso rápido para as páginas de e-sports, loja e suporte.
 
-### 🔹 Página de E-Sports
+### Página de E-Sports
 
 - Informações sobre torneios como **Fame Cup** e **Elite Series**;
 - Destaque para jogadores e equipes competitivas.
 
-### 🔹 Loja Virtual
+### Loja Virtual
 
 - Catálogo de produtos (mouses, teclados, headsets, consoles etc.);
 - Carrinho de compras com cálculo de subtotal, frete e descontos;
 - Validação de dados como CPF e CEP antes da finalização do pedido.
 
-### 🔹 Página de Suporte
+### Página de Suporte
 
 - Canais de atendimento via WhatsApp, telefone e e-mail;
 - Informações sobre horários de atendimento.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica do site;
 - **CSS3**: Estilização, responsividade e layout;
@@ -51,7 +51,7 @@ O site reúne:
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```plaintext
 GAMEZONE/
@@ -91,16 +91,16 @@ GAMEZONE/
 
 ---
 
-## ▶️ Como Executar o Projeto
+## Como Executar o Projeto
 
-### ✅ Pré-requisitos
+### Pré-requisitos
 
 Antes de iniciar, você precisa ter:
 
 - [Visual Studio Code](https://code.visualstudio.com/) instalado;
 - Extensão Live Server instalada no VS Code.
 
-### 📥 Clonar o Repositório
+### Clonar o Repositório
 
 Abra seu terminal ou prompt de comando e digite:
 
@@ -108,12 +108,12 @@ Abra seu terminal ou prompt de comando e digite:
 git clone https://github.com/arthursteinerr/projetoGameZone.git
 ```
 
-### 💻 Abrir no VS Code
+### Abrir no VS Code
 
 1. Abra o **Visual Studio Code**;
 2. Vá em `Arquivo > Abrir Pasta` e selecione a pasta `gamezone` clonada.
 
-### 🚀 Rodar com o Live Server
+### Rodar com o Live Server
 
 1. Navegue até o arquivo `index.html`, dentro da pasta `HTML/HOME`;
 2. Clique com o botão direito no arquivo e selecione **"Open with Live Server"**;
@@ -125,7 +125,7 @@ http://127.0.0.1:5500
 
 ---
 
-## 👥 Contribuidores
+## Contribuidores
 
 Este projeto foi desenvolvido por:
 
@@ -138,7 +138,7 @@ Posteriormente, foram feitas alterações e melhorias com foco em organização,
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto foi desenvolvido como trabalho acadêmico no curso de graduação da Faculdade FAMINAS - Muriaé, durante o primeiro período.
 
